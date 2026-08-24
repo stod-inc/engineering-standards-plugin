@@ -4,6 +4,8 @@ CodexとClaude Codeから、現在発効中のStoD技術規範を参照するた
 
 このrepositoryに規範本文、顧客・案件情報、認証情報は含まれません。Pluginは読み取り専用MCPとSkillだけを導入し、規範本文は利用承認を受けた本人がブラウザでログインした後に取得します。
 
+AIへ設定を任せる場合は、[セットアッププロンプト](SETUP_PROMPT.md)をCodexまたはClaude Codeへ貼り付けてください。
+
 ## Codex
 
 ```bash
