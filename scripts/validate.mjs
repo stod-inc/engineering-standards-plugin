@@ -51,6 +51,7 @@ const expectedFiles = [
   "LICENSE",
   "README.md",
   "SECURITY.md",
+  "SETUP_PROMPT.md",
   "plugins/stod-engineering-standards/.claude-plugin/plugin.json",
   "plugins/stod-engineering-standards/.codex-plugin/plugin.json",
   "plugins/stod-engineering-standards/.mcp.json",
