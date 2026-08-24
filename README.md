@@ -22,6 +22,26 @@ claude plugin install stod-engineering-standards@stod-standards --scope user
 
 Claude Codeが`stod-standards`の認証を求めたら、`/mcp`から認証を開始し、ブラウザでログインを完了します。その後、Claude Codeへ「現在のStoD技術規範の版を確認して」と依頼します。
 
+## 旧StoD Internal版からの移行
+
+`stod-engineering-standards@stod-internal`を導入済みの場合は、同名MCPの重複を避けるため、旧Pluginを削除してから上記の公開marketplace版を導入します。
+
+Codex:
+
+```bash
+codex plugin remove stod-engineering-standards@stod-internal
+codex plugin marketplace remove stod-internal
+```
+
+Claude Code:
+
+```bash
+claude plugin uninstall stod-engineering-standards@stod-internal --scope user
+claude plugin marketplace remove stod-internal --scope user
+```
+
+削除前に、`stod-internal` marketplaceへ別のPluginが追加されていないことを確認します。ブラウザ認証が必要になった場合は、公開版の導入後に再認証します。
+
 ## 公開範囲
 
 公開するのは次の情報だけです。
