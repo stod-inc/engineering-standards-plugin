@@ -5,7 +5,7 @@
 ## Codex
 
 ```bash
-codex plugin marketplace add stod-inc/engineering-standards-plugin --ref main
+codex plugin marketplace add https://github.com/stod-inc/engineering-standards-plugin.git --ref main
 codex plugin add stod-engineering-standards@stod-standards
 ```
 
@@ -14,7 +14,7 @@ CodexがMCPの認証を表示したら、`stod-standards`をAuthenticateする�
 ## Claude Code
 
 ```bash
-claude plugin marketplace add stod-inc/engineering-standards-plugin
+claude plugin marketplace add https://github.com/stod-inc/engineering-standards-plugin.git
 claude plugin install stod-engineering-standards@stod-standards --scope user
 ```
 
@@ -27,4 +27,3 @@ Claude CodeがMCP認証を要求したら、`/mcp`から`stod-standards`を選�
 - 404: Pluginの最新版とserver deploy状態を確認する。
 - 版・hash不一致: 応答を使用せず、server deployと生成物同期を確認する。
 - 接続できない状態を規範適合として扱わず、別の非公式経路へ切り替えない。
-

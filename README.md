@@ -7,7 +7,7 @@ CodexとClaude Codeから、現在発効中のStoD技術規範を参照するた
 ## Codex
 
 ```bash
-codex plugin marketplace add stod-inc/engineering-standards-plugin --ref main
+codex plugin marketplace add https://github.com/stod-inc/engineering-standards-plugin.git --ref main
 codex plugin add stod-engineering-standards@stod-standards
 ```
 
@@ -16,7 +16,7 @@ Codexが`stod-standards`の認証を求めたら、ブラウザでログイン�
 ## Claude Code
 
 ```bash
-claude plugin marketplace add stod-inc/engineering-standards-plugin
+claude plugin marketplace add https://github.com/stod-inc/engineering-standards-plugin.git
 claude plugin install stod-engineering-standards@stod-standards --scope user
 ```
 
