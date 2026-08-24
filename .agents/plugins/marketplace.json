@@ -1,0 +1,21 @@
+{
+  "name": "stod-standards",
+  "interface": {
+    "displayName": "StoD Standards"
+  },
+  "plugins": [
+    {
+      "name": "stod-engineering-standards",
+      "source": {
+        "source": "local",
+        "path": "./plugins/stod-engineering-standards"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
+

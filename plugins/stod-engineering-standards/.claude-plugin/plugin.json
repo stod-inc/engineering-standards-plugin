@@ -1,0 +1,15 @@
+{
+  "name": "stod-engineering-standards",
+  "version": "1.0.2",
+  "description": "Read and apply the current authenticated StoD engineering standards in Claude Code.",
+  "author": {
+    "name": "StoD",
+    "url": "https://standards.matchstod.com/"
+  },
+  "repository": "https://github.com/stod-inc/engineering-standards-plugin",
+  "license": "Proprietary",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "keywords": ["stod", "engineering-standards", "mcp", "governance", "delivery"]
+}
+

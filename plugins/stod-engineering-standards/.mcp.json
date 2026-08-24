@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "stod-standards": {
+      "type": "http",
+      "url": "https://standards-mcp.matchstod.com/mcp",
+      "note": "Read-only StoD engineering standards MCP. Browser login is required and content is returned only while the user has an active standards approval."
+    }
+  }
+}
+

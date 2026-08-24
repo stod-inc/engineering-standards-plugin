@@ -1,0 +1,21 @@
+{
+  "name": "stod-standards",
+  "owner": {
+    "name": "StoD"
+  },
+  "description": "Public distribution for the authenticated StoD Engineering Standards Plugin.",
+  "plugins": [
+    {
+      "name": "stod-engineering-standards",
+      "source": "./plugins/stod-engineering-standards",
+      "description": "Read and apply the current authenticated StoD engineering standards.",
+      "version": "1.0.2",
+      "author": {
+        "name": "StoD"
+      },
+      "category": "Developer Tools",
+      "tags": ["standards", "mcp", "governance", "delivery"]
+    }
+  ]
+}
+

@@ -1,0 +1,7 @@
+interface:
+  display_name: "StoD技術規範"
+  short_description: "現行規範を取得し、設計・実装・レビューへ適用する"
+  default_prompt: "Use $stod-engineering-standards to retrieve the current StoD standards and apply the relevant clauses to this work."
+policy:
+  allow_implicit_invocation: true
+

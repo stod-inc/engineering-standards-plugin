@@ -1,0 +1,31 @@
+{
+  "name": "stod-engineering-standards",
+  "version": "1.0.2",
+  "description": "Read and apply the current authenticated StoD engineering standards in Codex.",
+  "author": {
+    "name": "StoD",
+    "url": "https://standards.matchstod.com/"
+  },
+  "homepage": "https://standards.matchstod.com/ai-connect.html",
+  "repository": "https://github.com/stod-inc/engineering-standards-plugin",
+  "license": "Proprietary",
+  "keywords": ["stod", "engineering-standards", "mcp", "governance", "delivery"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "StoD技術規範",
+    "shortDescription": "現行規範を取得し、設計・実装・レビューへ適用する",
+    "longDescription": "利用承認を受けた本人として、現在のStoD技術規範をMCPから取得し、目標Tier、構成、実利用に応じた条項と証拠を設計・実装・レビュー・監査へ適用します。規範本文はPluginへ固定せず、発効版の版・日付・content SHA-256を毎回確認します。",
+    "developerName": "StoD",
+    "category": "Developer Tools",
+    "capabilities": ["Read"],
+    "websiteURL": "https://standards.matchstod.com/ai-connect.html",
+    "defaultPrompt": [
+      "この変更へ現在のStoD技術規範を適用して",
+      "対象Tierと構成から必要な規範条項を確認して",
+      "このPRをStoD技術規範に照らしてレビューして"
+    ],
+    "brandColor": "#0D2D4F"
+  },
+  "mcpServers": "./.mcp.json"
+}
+
