@@ -39,8 +39,8 @@ const walk = (directory) =>
   });
 
 const publicFiles = walk(root)
-  .filter((path) => !path.includes(`${join(root, ".git")}/`))
   .map((path) => relative(root, path))
+  .filter((path) => path !== ".git" && !path.startsWith(".git/"))
   .sort();
 
 const expectedFiles = [
